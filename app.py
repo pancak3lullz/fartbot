@@ -17,7 +17,7 @@ def fart():
     video = random.choice(videos)  # Pick a random video
     response = {
         "response_type": "in_channel",  # Make it visible to everyone
-        "text": f"[💩]({video})"
+        "text": f"💩[ ]({video})"
     }
     return jsonify(response), 200
 
